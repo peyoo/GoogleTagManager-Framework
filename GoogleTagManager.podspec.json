@@ -30,6 +30,7 @@
       "~> 3.13.0"
     ]
   },
+  "pod_target_xcconfig"  : { "ENABLE_BITCODE" : "NO"}
   "source": {
     "http": "https://github.com/peyoo/GoogleTagManager-Framework.git"
   }
