@@ -1,0 +1,36 @@
+{
+  "name": "GoogleTagManager",
+  "version": "3.12.1",
+  "summary": "Google Tag Manager - create and update tags easily",
+  "description": "Google Tag Manager is a tool to easily deploy analytics and marketing tags, run experiments, and configure your app",
+  "homepage": "https://www.google.com/tagmanager",
+  "license": {
+    "type": "Copyright",
+    "text": "Copyright 2015 Google Inc."
+  },
+  "authors": "Google, Inc.",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "vendored_libraries": [
+    "libTagManager.a"
+  ],
+  "public_header_files": "*.h",
+  "source_files": “*.{h,m}”,
+  "frameworks": [
+    "CoreData",
+    "SystemConfiguration"
+  ],
+  "libraries": [
+    "sqlite3",
+    "z"
+  ],
+  "dependencies": {
+    "GoogleAnalytics": [
+      "~> 3.13.0"
+    ]
+  },
+  "source": {
+    "http": "https://github.com/peyoo/GoogleTagManager-Framework.git"
+  }
+}
