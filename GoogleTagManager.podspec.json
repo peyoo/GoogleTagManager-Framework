@@ -16,7 +16,7 @@
     "libTagManager.a"
   ],
   "public_header_files": "*.h",
-  "source_files": “*.{h,m}”,
+  "source_files": "*.{h,m}",
   "frameworks": [
     "CoreData",
     "SystemConfiguration"
